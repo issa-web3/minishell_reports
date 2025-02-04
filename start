@@ -1,8 +1,0 @@
-
-have:
-	nothing
-
-need :
-	struct
-	int main
-	plan

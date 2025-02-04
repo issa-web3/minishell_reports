@@ -1,0 +1,21 @@
+
+
+need :
+	struct
+	int main
+	plan
+
+plan:
+	// @GENERAL_CODE
+	make kids							N
+	make pipes (no leaks)				N - 1
+
+	// @CHILD_PROCESS_ITER
+	access(PATH + ./execution/built-ins/executables)
+
+	// GENERAL_CODE
+	general execve()
+
+	// BUILT-INs
+	executables in ./execution/built-ins/executables
+
