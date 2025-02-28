@@ -1,0 +1,3 @@
+adding the linked list t_env
+adding the garbage collector
+taking bash as reference and solving issues
